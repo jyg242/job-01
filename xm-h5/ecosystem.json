@@ -18,7 +18,7 @@
       "port": "22",
       "ref": "origin/master",
       "repo": "https://github.com/jyg242/xm-h5.git",
-      "path": "/www/zf/pc",
+      "path": "/www/zf/h5",
       "ssh_options": "StrictHostKeyChecking=no",
       "pre-deploy": "git fetch --all",
       "post-deploy": "npm install && npm run build",
